@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Werenga · audio quality comparison</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; padding: 32px 20px 64px;
+    background: #0b1f1a; color: #f4ecd8;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; color: #e8c96a; font-weight: 600; }
+  p.lead { margin: 0 0 28px; color: #b9c6bd; }
+  .card {
+    background: #10312a; border: 1px solid #1d4a3e; border-radius: 14px;
+    padding: 16px 18px; margin-bottom: 16px;
+  }
+  .card.recommended { border-color: #e8c96a; }
+  .row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .name { font-weight: 600; }
+  .tag {
+    font-size: .72rem; letter-spacing: .06em; text-transform: uppercase;
+    color: #0b1f1a; background: #e8c96a; border-radius: 999px;
+    padding: 2px 9px; margin-left: 8px; vertical-align: 2px;
+  }
+  .meta { color: #9fb3a7; font-size: .87rem; margin: 6px 0 12px; }
+  audio { width: 100%; }
+  footer { color: #7f938a; font-size: .82rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Audio quality comparison</h1>
+  <p class="lead">
+    The same 3 minutes of Ar-Ra'd (recitation then Chichewa translation),
+    encoded at different settings. This is what the bundled library uses.
+  </p>
+
+  <div class="card">
+    <div class="row"><span class="name">Original MP3 · 128 kbps</span>
+      <span>2.9 MB / 3 min</span></div>
+    <div class="meta">The size the recordings had before conversion.</div>
+    <audio controls preload="none" src="original-128k.mp3"></audio>
+  </div>
+
+  <div class="card recommended">
+    <div class="row"><span class="name">AAC 64 kbps<span class="tag">in use</span></span>
+      <span>1.5 MB / 3 min</span></div>
+    <div class="meta">Half the size, indistinguishable from the original for speech.
+      All 36 recordings: 793 MB.</div>
+    <audio controls preload="none" src="aac-64k.m4a"></audio>
+  </div>
+
+  <div class="card">
+    <div class="row"><span class="name">AAC 48 kbps</span>
+      <span>1.1 MB / 3 min</span></div>
+    <div class="meta">The alternative: 60% smaller, slightly duller consonants.
+      All 36 recordings: about 600 MB.</div>
+    <audio controls preload="none" src="aac-48k.m4a"></audio>
+  </div>
+
+  <div class="card">
+    <div class="row"><span class="name">AAC 40 kbps</span>
+      <span>0.9 MB / 3 min</span></div>
+    <div class="meta">Smallest. Fine on a phone speaker, noticeably duller on
+      headphones. All 36 recordings: about 500 MB.</div>
+    <audio controls preload="none" src="aac-40k.m4a"></audio>
+  </div>
+
+  <footer>
+    AAC plays on every Android version the app supports (7.0 and newer) and in
+    Chrome. Ogg Opus would be smaller still, but needs Android 10+ unless the
+    player bundles its own decoder, so it is not used.
+  </footer>
+</main>
+</body>
+</html>

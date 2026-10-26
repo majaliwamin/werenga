@@ -1,0 +1,182 @@
+[
+  {
+    "file": "assets/audio/02-surah-baqarah-juz-01.m4a",
+    "title": "Al-Baqarah · Juz 1",
+    "surahNumber": 2
+  },
+  {
+    "file": "assets/audio/absurah-baqarah-juz-02.m4a",
+    "title": "Al-Baqarah · Juz 2",
+    "surahNumber": 2
+  },
+  {
+    "file": "assets/audio/03-surah-aal-imraan.m4a",
+    "title": "Aal-Imraan",
+    "surahNumber": 3
+  },
+  {
+    "file": "assets/audio/surah-maaidah.m4a",
+    "title": "Al-Maaidah",
+    "surahNumber": 5
+  },
+  {
+    "file": "assets/audio/08-surah-anfaal.m4a",
+    "title": "Al-Anfaal",
+    "surahNumber": 8
+  },
+  {
+    "file": "assets/audio/09-surah-taubah.m4a",
+    "title": "At-Tawbah",
+    "surahNumber": 9
+  },
+  {
+    "file": "assets/audio/10-surah-yunus.m4a",
+    "title": "Yunus",
+    "surahNumber": 10
+  },
+  {
+    "file": "assets/audio/11-surah-huud.m4a",
+    "title": "Huud",
+    "surahNumber": 11
+  },
+  {
+    "file": "assets/audio/12-surah-yusuf.m4a",
+    "title": "Yusuf",
+    "surahNumber": 12
+  },
+  {
+    "file": "assets/audio/13-surah-raad.m4a",
+    "title": "Ar-Ra'd",
+    "surahNumber": 13
+  },
+  {
+    "file": "assets/audio/14-surah-ibrahim.m4a",
+    "title": "Ibrahim",
+    "surahNumber": 14
+  },
+  {
+    "file": "assets/audio/15-surah-hijr.m4a",
+    "title": "Al-Hijr",
+    "surahNumber": 15
+  },
+  {
+    "file": "assets/audio/16-surah-nahl.m4a",
+    "title": "An-Nahl",
+    "surahNumber": 16
+  },
+  {
+    "file": "assets/audio/surah-israa-marying-done.m4a",
+    "title": "Al-Israa",
+    "surahNumber": 17
+  },
+  {
+    "file": "assets/audio/surah-kahf-full.m4a",
+    "title": "Al-Kahf",
+    "surahNumber": 18
+  },
+  {
+    "file": "assets/audio/surah-maryam-marying-done.m4a",
+    "title": "Maryam",
+    "surahNumber": 19
+  },
+  {
+    "file": "assets/audio/surah-ambiyaa.m4a",
+    "title": "Al-Anbiyaa",
+    "surahNumber": 21
+  },
+  {
+    "file": "assets/audio/surah-hajj-joining-marying-done-2.m4a",
+    "title": "Al-Hajj",
+    "surahNumber": 22
+  },
+  {
+    "file": "assets/audio/03-surah-muminoon.m4a",
+    "title": "Al-Mu'minoon",
+    "surahNumber": 23
+  },
+  {
+    "file": "assets/audio/surah-furqaan.m4a",
+    "title": "Al-Furqaan",
+    "surahNumber": 25
+  },
+  {
+    "file": "assets/audio/06-surah-shuaraa-done000.m4a",
+    "title": "Ash-Shu'araa",
+    "surahNumber": 26
+  },
+  {
+    "file": "assets/audio/surah-naml-marying-done.m4a",
+    "title": "An-Naml",
+    "surahNumber": 27
+  },
+  {
+    "file": "assets/audio/28-surah-qasas.m4a",
+    "title": "Al-Qasas",
+    "surahNumber": 28
+  },
+  {
+    "file": "assets/audio/29-surah-ankabut.m4a",
+    "title": "Al-Ankaboot",
+    "surahNumber": 29
+  },
+  {
+    "file": "assets/audio/30-surah-rum.m4a",
+    "title": "Ar-Room",
+    "surahNumber": 30
+  },
+  {
+    "file": "assets/audio/31-surah-luqman.m4a",
+    "title": "Luqman",
+    "surahNumber": 31
+  },
+  {
+    "file": "assets/audio/5-surah-yasin.m4a",
+    "title": "Yaaseen",
+    "surahNumber": 36
+  },
+  {
+    "file": "assets/audio/surah-muhammad.m4a",
+    "title": "Muhammad",
+    "surahNumber": 47
+  },
+  {
+    "file": "assets/audio/49-surah-hujurat.m4a",
+    "title": "Al-Hujuraat",
+    "surahNumber": 49
+  },
+  {
+    "file": "assets/audio/50-surah-qaaf.m4a",
+    "title": "Qaaf",
+    "surahNumber": 50
+  },
+  {
+    "file": "assets/audio/6-surat-thaariat.m4a",
+    "title": "Adh-Dhaariyaat",
+    "surahNumber": 51
+  },
+  {
+    "file": "assets/audio/52-surah-tuur.m4a",
+    "title": "At-Toor",
+    "surahNumber": 52
+  },
+  {
+    "file": "assets/audio/54-surah-qamar.m4a",
+    "title": "Al-Qamar",
+    "surahNumber": 54
+  },
+  {
+    "file": "assets/audio/musitaf-waqiah.m4a",
+    "title": "Al-Waaqi'ah",
+    "surahNumber": 56
+  },
+  {
+    "file": "assets/audio/01-surah-mujaadalah.m4a",
+    "title": "Al-Mujaadalah",
+    "surahNumber": 58
+  },
+  {
+    "file": "assets/audio/02-surah-hashr.m4a",
+    "title": "Al-Hashr",
+    "surahNumber": 59
+  }
+]
